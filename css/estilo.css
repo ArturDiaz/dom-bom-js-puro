@@ -1,0 +1,39 @@
+body{
+	background: #AFBBD2;
+}
+
+#titulo, #titulo2{
+	background: #1D232F;
+	padding: 1% 2% 1% 2%;
+	margin: -5%;
+}
+
+#container{
+	background: #1E386A;
+	color: #F4F8FF;
+	padding: 5%;
+	margin: 10%;
+	text-align: center;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#formulario{
+	padding-top: 5%;
+}
+
+#tab{
+	text-align: center;
+	padding: 5% 0% 5% 0;
+	color: black;
+	font: Arial;
+	font-size: 15px;
+}
+table{
+	background-color: #D5EEFF;
+	margin: auto;
+}
+
+#boton{
+	padding-bottom: 5%;
+}

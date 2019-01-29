@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro de Estudiantes</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+<script type="text/javascript" src="js/javascript1.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="titulo"><h2>Registro Estudiante</h2></div>
+		<div id="formulario">
+			<br>
+			<b>Codigo: </b>
+			<br>
+		  <input type="text" id="codigo1" value="" required/>
+			<br>
+			<b>Nombre: </b>
+			<br>
+		  <input type="text" id="nombre1" value=""/>
+			<br>
+			<b>Nota:</b>
+			<br>
+		  <input type="text" id="nota1" value=""/>
+			<br><br>
+		</div>
+		<div id="boton">
+			<button onClick="registrar()">Registrar Estudiante</button>
+			<button onClick="promedio()">Mostrar Promedio</button>
+			<button onClick="notaMayor()">Mostrar Nota Mayor</button>
+			<button onClick="notaMenor()">Mostrar Nota Menor</button>
+		</div>
+		<br><br>
+		<div>
+		<h2 id="titulo2">Listado de Estudiantes</h2>
+		</div>
+		
+		<br>
+		<div id="tab">
+	  	<table id="listado" border="1px">
+			<tr>
+				<td>Codigo</td>
+				<td>Nombre</td>
+				<td>Nota</td>
+			</tr>
+		  	<tr></tr>
+		</table>
+		</div>
+	</div>
+	
+</body>
+</html>
